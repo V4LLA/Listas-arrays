@@ -4,8 +4,6 @@ class Producto{
         this.nombre=nombre;
         this.cantidad=cantidad;
         this.precio=precio;
-        this.siguiente= null;
-        this.anterior= null;
     }
     info(){  
         return this.id + this.nombre + this.cantidad + this.precio;
